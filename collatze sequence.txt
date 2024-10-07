@@ -1,0 +1,42 @@
+3 5
+Number:6
+location:108
+7 location address
+7 Number Number1
+start:5 one Number1 Loop
+      9
+ Loop:7 Number1 r
+    x:5 r two Even-odd
+      2 r two r
+      3 x
+Even-odd:4 r zero even
+odd:5 count three 3*n     
+     1 sum one sum
+     7 zero count
+     3 N2 
+ 3*n:1 sum Number1 sum
+    1 count one count
+    3 odd
+even:5 Number1 two N1
+    2 Number1 two Number1
+    1 count1 one count1
+    3 even
+N1:7 count1 Number1
+   7 zero count1
+   7 zero sum
+   3 copy
+N2:7 sum Number1
+   7 zero sum
+   7 zero count
+copy:7 Number1 address:0
+     1 address one address
+  3 start
+Number1:0
+r:0
+two:2
+sum:9
+one:1
+count:0
+count1:0
+zero:0
+three:3
