@@ -1,0 +1,28 @@
+3 7
+seq_loc:68
+seq_len:5
+cycle_loc:76
+cycle_len:2
+7 seq_loc se_loc
+7 cycle_loc cy_loc
+7 seq_len dup_seq_len
+7 seq_loc dup_seq_loc
+loop:5 count cycle_len loop1
+       9
+loop1:5 count1 seq_len change
+      7 dup_seq_loc se_loc
+      7 dup_seq_len seq_len
+      2 count1 count1 count1
+      3 loop1
+change:7 se_loc:0 cy_loc:0
+       1 one se_loc se_loc 
+      1 one cy_loc cy_loc
+      1 one count count
+      1 one count1 count1
+3 loop
+one:1
+count:0
+count1:0
+dup_seq_loc:0
+dup_seq_len:0
+0 0 4 5 2 8 7
