@@ -1,0 +1,36 @@
+3 5
+start-location:109
+no-of-elements:10
+7 start-location address1a
+7 start-location address1b
+7 start-location address1c
+1 start-location one address2a
+1 start-location one address2b
+1 start-location one address2c
+i<e:5 i no-of-elements j+1
+9
+j+1:1 i one j
+j<e:5 j no-of-elements ad>ad
+    1 address1a one address1a
+    1 address1b one address1b
+    1 address1c one address1c
+    1 i one i
+    1 address1a one address2a
+    1 address1a one address2b
+    1 address1a one address2c
+    3 i<e
+ad>ad:5  address2a:0 address1a:0  swap
+add:1 address2a one address2a
+   1 address2b one address2b
+   1 address2c one address2c
+   1 j one j
+   3 j<e
+swap:7 address1b:0 temp  
+     7 address2b:0 address1c:0
+     7 temp  address2c:0
+3 add
+one:1
+i:0
+j:0
+temp:0
+0 0 0 67 98 65 34 23 98 8 1 5 6
