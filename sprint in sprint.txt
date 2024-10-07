@@ -1,0 +1,85 @@
+3 start
+10 2 0 -1 1 1 2 3 9 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0
+
+start:7 label:3 x
+      4 z x check1
+      1 one label label
+      3 start
+check1:1 one label label
+       7 label read
+check:7 read:0 a
+      4 a three THREE
+      4 a seven SEVEN
+      4 a nine NINE
+      4 a one ONE
+      4 a two TWO
+      4 a five FIVE
+      4 a four FOUR
+      9
+THREE:1 one read a
+      7 a a1
+      7 a1:0 a
+      1 two a a
+      7 a read
+      3 check
+SEVEN:1 one read a2
+      1 two read b
+      1 two a2:0 a3
+      1 two b:0 b1
+      7 a3:1 b1:0
+      1 one b read
+      3 check
+ONE:1 one read a4
+    1 two read b2
+    1 three read c
+    1 two a4:0 a5
+    1 two b2:0 b3
+    1 two c:0 c1
+    1 a5:0 b3:0 c1:0
+    1 one c read
+    3 check
+TWO:1 one read a6
+    1 two read b4
+    1 three read c2
+    1 two a6:0 a7
+    1 two b4:0 b5
+    1 two c2:0 c3
+    2 a7:0 b5:0 c3:0
+    1 one c2 read
+    3 check
+FIVE:1 one read a8
+     1 two read b6
+     1 three read c5
+     1 two a8:0 a9
+     1 two b6:0 b7
+     1 two c5:0 c6
+     5 a9:0 b7:0 yes
+     1 one c5 read
+     3 check
+yes:7 c6 read
+     3 check
+FOUR:1 one read a10
+     1 two read b8
+     1 three read c7
+     1 two a10:0 a11
+     1 two b8:0 b9
+     1 two c7:0 c8
+     4 a11:0 b9:0 yes1
+     1 one c7 read
+     3 check
+yes1:7 c8 read
+     3 check
+NINE:9  
+three:3
+a:0
+one:1
+two:2
+nine:9
+seven:7
+five:5
+four:4
+c6:0
+c8:0
+z:-1
+x:0
