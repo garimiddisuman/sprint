@@ -1,0 +1,20 @@
+3 5
+number:12
+result:0
+7 number dup_num
+loop:5 zero dup_num dup_num<10
+     9
+dup_num<10:5 dup_num ten 
+            sum
+2 dup_num ten dup_num
+1 one count count
+3 dup_num<10 
+sum:1 result dup_num result
+    7 count dup_num
+    2 count count count
+    3 loop
+one:1
+zero:0
+dup_num:0
+ten:10
+count:0
