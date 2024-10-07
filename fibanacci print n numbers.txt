@@ -1,0 +1,19 @@
+3 5
+first_location:100
+length:1
+loop:5 count length print
+       9
+print:7 first_location a
+      7 s1 a:0
+      1 s1 s2 s3
+      7 s2 s1
+      7 s3 s2
+      1 one count count
+      1 first_location one 
+        first_location
+3 loop
+count:0
+s1:0
+s2:1
+s3:0
+one:1
