@@ -1,0 +1,21 @@
+3 6
+first-location:46
+length:0
+result:1
+7 first-location address1
+2 length one length1
+1 first-location length1 
+   address2
+loop:5 address1 address2 equal
+     7 two result
+         9
+equal:4 address1:0 address2:0 
+       change-loc
+      9
+change-loc:1 one address1 
+            address1
+2 address2 one address2
+3 loop
+two:2
+one:1
+length1:0
