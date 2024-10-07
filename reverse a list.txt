@@ -1,0 +1,31 @@
+3 5
+first-location:89
+length:9
+7 length r
+7 first-location firstele
+7 first-location firstel
+2 length one length1
+1 first-location length1 lastele
+1 first-location length1 lastel
+r<2:5 r two o<count
+    2 r two r
+    1 count one count
+    3 r<2
+o<count:5 zero count swap
+         9
+swap:7 firstele:0 temp 
+     7 lastele:0 firstel:0
+     7 temp lastel:0
+     1 firstele one firstele
+     1 firstel one firstel
+     2 lastele one lastele
+    2 lastel one lastel
+    2 count one count
+    3 o<count
+r:0
+one:1
+two:2
+count:0
+zero:0
+temp:0
+length1:0
