@@ -1,0 +1,63 @@
+3 calculator
+function:4 fn:5 sn:2 res1:0 
+                      res2:0
+calculator:6 3 6 4 6 5
+           3 start
+           addition:1
+           subtraction:2
+           multiplication:3
+           division:4
+start:7 read:3 a
+      4 a addition ADD
+      4 a subtraction SUB
+      4 a multiplication MUL
+      4 a division DIV
+      halt:9
+ADD:1 one read n1
+    1 two read n2
+    1 three read r
+    1 n1:0 n2:0 r:0
+    3 halt
+SUB:1 one read num1
+    1 two read num2
+    1 three read r1
+    2 num1:0 num2:0 r1:0
+    3 halt
+MUL:1 one read m1
+    1 two read m2
+    1 three read p
+    7 m1:0 m11
+    7 m2:0 m22
+  mul:5 count m11 loop        
+      7 sum p:0 
+      3 halt
+  loop:1 sum m22 sum
+       1 one count count
+       3 mul
+DIV:1 one read dividend
+    1 two read divisor
+    1 three read quotient
+    1 four read remainder
+    7 dividend:0 dividend1
+    7 divisor:0 divisor1
+    7 dividend1 rem
+ rsub:5 rem divisor1 copy
+      2 rem divisor1 rem
+      1 one quotient1 quotient1
+      3 rsub
+ copy:7 rem remainder:0
+      7 quotient1 quotient:0
+      3 halt           
+one:1
+two:2
+three:3
+four:4
+a:0
+count:0
+sum:0
+m22:0
+m11:0
+rem:0
+dividend1:0
+divisor1:0
+quotient1:0
